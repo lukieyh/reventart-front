@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}   
+
+.pg-telas{
+    width: 100%;
+}
+
+.pg-telas .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+    gap: 20px;
+}
+
+.pg-telas .container h1{
+    font-weight: bold;
+    color: #222222;
+    margin: 0;
+}
+
+.pg-telas .container .btn-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.pg-telas .container .btn-list a{
+    background-color: #92B66C;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #FFFFFF;
+}
