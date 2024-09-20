@@ -3,12 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/index.css">
-    <title>Pagina Produto</title>
+    <link rel="stylesheet" href="/assets/css/paginaProduto.css">
+    <title>Pagina Usuario</title>
 </head>
 <body>
-    <!-- Codigo aqui -->
+    <header>
+        <div class="container nav-renvenart">
+            <div class="logo">
+                <img src="/assets/images/logo.png" alt="Logo Reventart">
+            </div>
+            <nav>
+                <ul>
+                    
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Artesãos</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Como Funciona</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <button>Acessar conta</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <div class="product-image">
+                <img src="/assets/images/vaso.jpg" alt="Vaso de Vidro Reciclado">
+            </div>
+            
+            <div class="product-info">
+                <h1>Vaso de Vidro Reciclado</h1>
+                <p>
+                    Este vaso artesanal é feito 100% com vidro reciclado, resultando em uma peça única e sustentável para a sua decoração. Cada vaso tem características únicas, como variações de cor e textura, devido ao processo de reaproveitamento do material. Ideal para quem busca uma decoração eco-friendly e deseja contribuir para a preservação do meio ambiente com estilo e originalidade.
+                </p>
+                <p>
+                    Pertence a <strong>Joana Silva</strong>, artesã especialista em transformar vidro reciclado em objetos de decoração.
+                </p>
+                <div class="actions">
+                    <button class="contact">Entre em contato</button>
+                    <button class="gallery">Veja Galeria</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-products">
+            <h2 class="h2coisa">Produtos relacionados</h2>
+            <div class="related-items">
+                <img src="/assets/images/bolsa.jpg" alt="Produto 1">
+                <img src="/assets/images/pulseira.jpg" alt="Produto 2">
+                <img src="/assets/images/vaso.jpg" alt="Produto 3">
+                <img src="/assets/images/bolsa.jpg" alt="Produto 4">
+                <img src="/assets/images/pulseira.jpg" alt="Produto 5">
+            </div>
+            <button class="view-all">Conheça todos os produtos</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="column">
+                <h3>Reventart</h3>
+                <p>Reventart é o marketplace líder para artesãos sustentáveis, conectando criadores que transformam materiais recicláveis em arte única com consumidores conscientes. Descubra peças exclusivas que valorizam a criatividade e o respeito ao meio ambiente.</p>
+            </div>
+            <div class="column">
+                <h3>Categorias</h3>
+                <ul>
+                    <li><a href="#">Decoração Sustentável</a></li>
+                    <li><a href="#">Moda Reciclada</a></li>
+                    <li><a href="#">Móveis Ecológicos</a></li>
+                    <li><a href="#">Bijuterias Sustentáveis</a></li>
+                    <li><a href="#">Arte e Esculturas</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Empresa</h3>
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Como Funciona</a></li>
+                    <li><a href="#">Termos & Condições</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Conta</h3>
+                <ul>
+                    <li><a href="#">Entrar / Registrar</a></li>
+                    <li><a href="#">Ver Carrinho</a></li>
+                    <li><a href="#">Política de Devolução</a></li>
+                    <li><a href="#">Torne-se um Artesão</a></li>
+                    <li><a href="#">Programa de Afiliados</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Reventart. Todos os Direitos Reservados</p>
+        </div>
+    </footer>
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>

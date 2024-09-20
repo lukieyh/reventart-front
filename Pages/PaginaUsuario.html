@@ -1,14 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
-    <title>Pagina Usuario</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <link rel="stylesheet" href="/assets/css/paginaUsuario.css">
+  <title>Pagina Usuario</title>
 </head>
+
 <body>
-    <!-- Codigo aqui -->
-    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <header class="header-reventart">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light nav-revetart">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="/assets/images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Artesãos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Como Funciona</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center">
+              <span class="navbar-text me-3">
+                Olá, <strong>Usuário</strong>
+              </span>
+              <!-- <button class="btn btn-primary" type="button">Acessar Conta</button> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="header">
+    <div class="container">
+      <div class="header-perfil">
+        <div class="banner-perfil" style="background-image: url('/assets/images/banner-example.jpg');"></div>
+        <div class="user-info">
+          <div class="photo-profile">
+            <img src="/assets/images/profile-example.jpg" alt="">
+          </div>
+          <div class="text-profile">
+            <h2 class="name">Mariana Costa</h2>
+            <p class="description">Mariana cria bolsas e acessórios de moda utilizando tecidos reaproveitados e
+              materiais recicláveis. Seu estilo combina criatividade e responsabilidade ambiental, trazendo uma nova
+              perspectiva para a moda sustentável. Suas peças são sinônimo de estilo consciente.</p>
+          </div>
+          <span class="divider"></span>
+          <div class="redes-user">
+            <p class="text">Formas de Contato</p>
+            <div class="redes">
+              <img src="/assets/images/icones/mail.svg" alt="">
+              <img src="/assets/images/icones/mail.svg" alt="">
+              <img src="/assets/images/icones/mail.svg" alt="">
+              <img src="/assets/images/icones/mail.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="section-content-perfil">
+    <div class="container">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="galeria-tab" data-bs-toggle="tab" href="#galeria" role="tab"
+            aria-controls="galeria" aria-selected="true">Galeria</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="contato-tab" data-bs-toggle="tab" href="#contato" role="tab" aria-controls="contato"
+            aria-selected="false">Contato</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="sobre-tab" data-bs-toggle="tab" href="#sobre" role="tab" aria-controls="sobre"
+            aria-selected="false">Sobre o Artesão</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="avaliacoes-tab" data-bs-toggle="tab" href="#avaliacoes" role="tab"
+            aria-controls="avaliacoes" aria-selected="false">Avaliações</a>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="galeria" role="tabpanel" aria-labelledby="galeria-tab">
+          <p>Aqui vai o conteúdo da Galeria.</p>
+        </div>
+        <div class="tab-pane fade" id="contato" role="tabpanel" aria-labelledby="contato-tab">
+          <p>Aqui vai o conteúdo de Contato.</p>
+        </div>
+        <div class="tab-pane fade" id="sobre" role="tabpanel" aria-labelledby="sobre-tab">
+          <p>Aqui vai o conteúdo sobre o Artesão.</p>
+        </div>
+        <div class="tab-pane fade" id="avaliacoes" role="tabpanel" aria-labelledby="avaliacoes-tab">
+          <p>Aqui vai o conteúdo das Avaliações.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <!-- <script src="/assets/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script> -->
 </body>
+
 </html>

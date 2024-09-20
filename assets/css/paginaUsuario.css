@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-reventart{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 1px 5px #0000004f;
+}
+.nav-revetart .logo{
+    width: 160px;
+}
+.header{
+    padding-top: 50px;
+}
+
+.header .container .header-perfil{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.header .container .header-perfil .banner-perfil{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .container .header-perfil .user-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 40px;
+    align-items: flex-start;
+}
+.header .container .header-perfil .user-info .photo-profile{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    top: -100px;
+}
+.header .container .header-perfil .user-info .photo-profile img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.header .container .header-perfil .user-info .text-profile{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.header .container .header-perfil .user-info .text-profile .name{
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.header .container .header-perfil .user-info .text-profile .description{
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.header .container .header-perfil .user-info .divider{
+    position: relative;
+    height: 100px;
+    width: 10px;
+    border-radius: 5px;
+    left: -10px;
+    background-color: #92B66C;
+}
+.header .container .header-perfil .user-info .redes-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.header .container .header-perfil .user-info .redes-user .redes{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.header .container .header-perfil .user-info .redes-user .text{
+    margin: 0;
+    text-wrap: nowrap;  
+}
+.header .container .header-perfil .user-info .redes-user .redes img{
+    width: 20px;
+    height: min-content;
+}

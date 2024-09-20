@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #92B66C; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px; 
+    max-width: 100%; 
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #888;
+}
+
+.login-btn {
+    background-color: #90B77D; 
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn:hover {
+    background-color: #82A66A;
+}
+
+.login-btn .icon {
+    margin-left: 10px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .login-box {
+        padding: 30px;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        font-size: 14px;
+    }
+
+    .login-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-box {
+        padding: 20px;
+        width: 100%; 
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .login-btn {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
