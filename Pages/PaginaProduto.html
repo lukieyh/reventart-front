@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="stylesheet" href="/assets/css/paginaProduto.css">
     <title>Pagina Usuario</title>
 </head>
@@ -16,7 +16,6 @@
             </div>
             <nav>
                 <ul>
-                    
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Artesãos</a></li>
                     <li><a href="#">Produtos</a></li>
@@ -29,38 +28,42 @@
         </div>
     </header>
 
-    <main>
-        <section class="product-details">
-            <div class="product-image">
-                <img src="/assets/images/vaso.jpg" alt="Vaso de Vidro Reciclado">
-            </div>
-            
-            <div class="product-info">
-                <h1>Vaso de Vidro Reciclado</h1>
-                <p>
-                    Este vaso artesanal é feito 100% com vidro reciclado, resultando em uma peça única e sustentável para a sua decoração. Cada vaso tem características únicas, como variações de cor e textura, devido ao processo de reaproveitamento do material. Ideal para quem busca uma decoração eco-friendly e deseja contribuir para a preservação do meio ambiente com estilo e originalidade.
-                </p>
-                <p>
-                    Pertence a <strong>Joana Silva</strong>, artesã especialista em transformar vidro reciclado em objetos de decoração.
-                </p>
-                <div class="actions">
-                    <button class="contact">Entre em contato</button>
-                    <button class="gallery">Veja Galeria</button>
+    <main class="product-page">
+        <div class="container">
+            <section class="product-details">
+                <div class="product-image">
+                    <img src="/assets/images/vaso.jpg" alt="Vaso de Vidro Reciclado">
                 </div>
-            </div>
-        </section>
-
-        <section class="related-products">
-            <h2 class="h2coisa">Produtos relacionados</h2>
-            <div class="related-items">
-                <img src="/assets/images/bolsa.jpg" alt="Produto 1">
-                <img src="/assets/images/pulseira.jpg" alt="Produto 2">
-                <img src="/assets/images/vaso.jpg" alt="Produto 3">
-                <img src="/assets/images/bolsa.jpg" alt="Produto 4">
-                <img src="/assets/images/pulseira.jpg" alt="Produto 5">
-            </div>
-            <button class="view-all">Conheça todos os produtos</button>
-        </section>
+                
+                <div class="product-info">
+                    <h1 class="title-product">Vaso de Vidro Reciclado</h1>
+                    <p class="description-product">
+                        Este vaso artesanal é feito 100% com vidro reciclado, resultando em uma peça única e sustentável para a sua decoração. Cada vaso tem características únicas, como variações de cor e textura, devido ao processo de reaproveitamento do material. Ideal para quem busca uma decoração eco-friendly e deseja contribuir para a preservação do meio ambiente com estilo e originalidade.
+                    </p>
+                    <p class="description-product">
+                        Pertence a <a href="./PaginaUsuario.html"><strong>Joana Silva</strong></a>, artesã especialista em transformar vidro reciclado em objetos de decoração.
+                    </p>
+                    <div class="actions">
+                        <button class="contact">Entre em contato</button>
+                        <button class="gallery">Veja Galeria</button>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="related-products">
+                <h2 class="title">Produtos relacionados</h2>
+                <div class="related-items">
+                    <img src="/assets/images/bolsa.jpg" alt="Produto 1">
+                    <img src="/assets/images/pulseira.jpg" alt="Produto 2">
+                    <img src="/assets/images/vaso.jpg" alt="Produto 3">
+                    <img src="/assets/images/bolsa.jpg" alt="Produto 4">
+                    <img src="/assets/images/pulseira.jpg" alt="Produto 5">
+                </div>
+                <div class="view-box">
+                    <button class="view-all">Conheça todos os produtos</button>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>
