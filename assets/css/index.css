@@ -44,7 +44,14 @@
     padding: 10px 15px;
     color: #FFFFFF;
 }
-
+/* Nav bar */
+.header-reventart{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 1px 5px #0000004f;
+    background-color: #f8f9fa;
+}
 .nav-revetart .logo{
     width: 160px;
 }
@@ -103,6 +110,53 @@
     text-align: center;
     margin-top: 20px;
     font-size: 0.9rem;
+}
+
+
+/* Hover Produtos */
+
+.card-img{
+    overflow: hidden;
+    height: 250px;
+}
+.card-img img{
+    height: 100%;
+    object-fit: cover;
+}
+.card-img:hover img{
+    filter: blur(3px) brightness(0.5);
+    scale: 1.05;
+    transition: 0.5s;
+}
+.card-img:not(:hover) img{
+    transition: 0.5s;
+}
+.hover-text{
+    padding: 0 20px;
+    position: absolute;
+    bottom: -50px;
+    opacity: 0;
+}
+.hover-text .hover-title{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.hover-text .hover-artesao{
+    font-size: 0.825rem;
+    color: #FFFFFF;
+}
+.card-img:hover .hover-text{
+    bottom: 20px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.card-img:not(:hover) .hover-text{
+    transition: 0.5s;
+}
+
+.hover-text p{
+    margin: 0;
 }
 
 

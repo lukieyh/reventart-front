@@ -9,48 +9,8 @@ body {
     color: #333;
 }
 
-header {
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ddd;
-}
-
-.nav-renvenart{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo img {
-    width: 120px;
-}
-
-nav ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    margin: 0;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.login button {
-    background-color: #6F9E50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .product-page{
-    padding-top: 40px;
+    padding-top: 130px;
 }
 
 .product-page .product-details {
@@ -213,60 +173,4 @@ nav ul li a {
     .product-page footer .column {
         width: 100% !important;
     }
-}
-
-footer {
-    background-color: #6baa64;
-    color: white;
-    padding: 40px;
-    margin-top: 40px;
-}
-
-footer .container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-footer .column {
-    width: 22%;
-}
-
-footer h3 {
-    margin-bottom: 20px;
-    font-size: 18px;
-}
-
-footer p {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #f2f2f2;
-}
-
-footer ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-footer ul li {
-    margin-bottom: 10px;
-}
-
-footer ul li a {
-    color: #f2f2f2;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-footer ul li a:hover {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-footer .copyright {
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid #dcdcdc;
-    margin-top: 40px;
-    color: #f2f2f2;
 }
