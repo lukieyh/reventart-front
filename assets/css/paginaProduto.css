@@ -61,12 +61,14 @@ body {
     width: 100%;
 }
 
-.product-page  .actions button {
+.product-page  .actions a {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     width: 50%;
+    text-align: center;
+    text-decoration: none;
 }
 
 .product-page  .contact {
@@ -103,8 +105,6 @@ body {
 }
 
 .product-page .related-items img {
-    width: 200px;
-    height: 200px;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -123,6 +123,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
