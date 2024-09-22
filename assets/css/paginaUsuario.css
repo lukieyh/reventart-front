@@ -8,6 +8,7 @@
     position: fixed;
     z-index: 999;
     box-shadow: 0px 1px 5px #0000004f;
+    background-color: #f8f9fa;
 }
 .nav-revetart .logo{
     width: 160px;
@@ -37,7 +38,7 @@
 }
 .header .container .header-perfil .user-info .photo-profile{
     position: relative;
-    height: 200px;
+    height: 100px;
     width: 200px;
     top: -100px;
 }
@@ -52,6 +53,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    border-right: 3px solid #92B66C;
 }
 .header .container .header-perfil .user-info .text-profile .name{
     margin: 0;
@@ -63,14 +65,14 @@
     font-size: 0.875rem;
 }
 
-.header .container .header-perfil .user-info .divider{
+/* .header .container .header-perfil .user-info .divider{
     position: relative;
     height: 100px;
     width: 10px;
     border-radius: 5px;
     left: -10px;
     background-color: #92B66C;
-}
+} */
 .header .container .header-perfil .user-info .redes-user{
     display: flex;
     flex-direction: column;
@@ -81,13 +83,131 @@
 .header .container .header-perfil .user-info .redes-user .redes{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 15px;
 }
 .header .container .header-perfil .user-info .redes-user .text{
     margin: 0;
     text-wrap: nowrap;  
+    font-weight: 600;
 }
 .header .container .header-perfil .user-info .redes-user .redes img{
     width: 20px;
     height: min-content;
+}
+
+.section-content-perfil{
+    margin-top: 40px;
+}
+
+/* Tab Geral */
+
+.title-tab{
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 30px;
+}
+.title-tab::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    background-color: #92B66C;
+    border-radius: 5px;
+    bottom: -5px;
+}
+
+/* Tab Galeria */
+.galery-content .row{
+    gap: 20px 0;
+}
+.galery-content .card{
+    overflow: hidden;
+    height: 250px;
+}
+.galery-content .card img{
+    height: 100%;
+    object-fit: cover;
+}
+.galery-content .card:hover img{
+    filter: blur(3px) brightness(0.5);
+    scale: 1.05;
+    transition: 0.5s;
+}
+.galery-content .card:not(:hover) img{
+    transition: 0.5s;
+}
+.galery-content .hover-text{
+    padding: 0 20px;
+    position: absolute;
+    bottom: -50px;
+}
+.galery-content .hover-text .hover-title{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.galery-content .hover-text .hover-artesao{
+    font-size: 0.825rem;
+    color: #FFFFFF;
+}
+.galery-content .card:hover .hover-text{
+    bottom: 20px;
+    transition: 0.5s;
+}
+
+.galery-content .card:not(:hover) .hover-text{
+    transition: 0.5s;
+}
+
+
+
+.galery-content .hover-text p{
+    margin: 0;
+}
+
+
+#contato{
+    padding: 20px;
+}
+
+.content-contato .list-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-contato .list-social li{
+    list-style: none;
+}
+
+.content-contato .list-social li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.content-contato .list-social .social-rede{
+    margin: 0;
+    font-weight: 600;
+}
+.content-contato .list-social .social-name{
+    margin: 0;
+    font-weight: 400;
+}
+
+@media (max-width: 992px){
+    .header .container .header-perfil .user-info{
+        flex-direction: column;
+        padding: 0;
+    }
+    .header .container .header-perfil .user-info .photo-profile{
+        left: 20px;
+    }
+    .header .container .header-perfil .user-info .text-profile,.header .container .header-perfil .user-info .redes-user{
+        padding: 20px 0 0 0;
+        border-right: none;
+    }
 }

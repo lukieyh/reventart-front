@@ -3,12 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/home.css">
     <title>Document</title>
 </head>
 <body>
-    <!-- Codigo aqui -->
-    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+
+    <header>
+    <div class="container nav-reventart d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <img src="/assets/images/logo.png" alt="Logo Reventart">
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Artesãos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Como Funciona</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <button class="btn btn-primary">Acessar conta</button>
+        </div>
+    </div>
+</header>
+<!-- Banner principal -->
+<section class="main-banner">
+    <div class="banner-text text-center">
+        
+    </div>
+</section>
+
+<!-- Seção de Categorias -->
+<section class="categories py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">Categorias</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-2">
+                <div class="category-item">
+                    <img src="/assets/images/bolsa.jpg" alt="Decoração Sustentável">
+                    <p>Decoração Sustentável</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="category-item">
+                    <img src="/assets/images/bolsa.jpg" alt="Moda Reciclada">
+                    <p>Moda Reciclada</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="category-item">
+                    <img src="/assets/images/bolsa.jpg" alt="Móveis Ecológicos">
+                    <p>Móveis Ecológicos</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="category-item">
+                    <img src="/assets/images/bolsa.jpg" alt="Bijuterias Sustentáveis">
+                    <p>Bijuterias Sustentáveis</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="category-item">
+                    <img src="/assets/images/bolsa.jpg" alt="Arte e Esculturas">
+                    <p>Arte e Esculturas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Seção de Seleção em Destaque -->
+    <section class="featured-products">
+        <div class="featured-header">
+            <h2 class="text-center">Seleção em Destaque</h2>
+            <p class="text-center">Descubra as Escolhas Que Estão em Alta no Momento</p>
+        </div>
+        <div class="featured-container">
+            <div class="product-item">
+                <img src="/assets/images/bolsa.jpg" alt="Produto 1">
+                <p>Bolsa Sustentável</p>
+            </div>
+            <div class="product-item">
+                <img src="/assets/images/bolsa.jpg" alt="Produto 2">
+                <p>Vaso Ecológico</p>
+            </div>
+            <div class="product-item">
+                <img src="/assets/images/bolsa.jpg" alt="Produto 3">
+                <p>Banco de Madeira Reciclada</p>
+            </div>
+            <div class="product-item">
+                <img src="/assets/images/bolsa.jpg" alt="Produto 4">
+                <p>Bijuterias Sustentáveis</p>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Container verde para "Junte-se a nós" -->
+<section class="join-us-section text-center py-5 bg-green">
+    <div class="container">
+        <h2>Junte-se a nós!</h2>
+        <p>Cadastre-se como artesão e faça parte da nossa comunidade.</p>
+        <button class="btn btn-primary">Cadastre-se</button>
+    </div>
+</section>
+
+<!-- Produtos em destaque -->
+<section class="featured-products py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Nossos Produtos Mais Vendidos</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-item">
+                    <img src="/assets/images/bolsa.jpg" alt="Produto 1" class="img-fluid">
+                    <p>Produto 1</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-item">
+                    <img src="/assets/images/bolsa.jpg" alt="Produto 2" class="img-fluid">
+                    <p>Produto 2</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-item">
+                    <img src="/assets/images/bolsa.jpg" alt="Produto 3" class="img-fluid">
+                    <p>Produto 3</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-item">
+                    <img src="/assets/images/bolsa.jpg" alt="Produto 4" class="img-fluid">
+                    <p>Produto 4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Container amarelado para depoimentos -->
+<section class="testimonials-section text-center py-5 bg-yellow">
+    <div class="container">
+        <h2>Depoimentos de Artesãos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="testimonials-card">
+                    <p>"Ser parte da Reventart me deu a oportunidade de mostrar minha arte para mais pessoas e ainda ajudar o meio ambiente!"</p>
+                    <h5>Joana Silva</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonials-card">
+                    <p>"Transformar madeira reciclada em esculturas mudou a minha vida e a Reventart fez isso possível."</p>
+                    <h5>Maria Souza</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonials-card">
+                    <p>"A plataforma me conecta a pessoas que realmente valorizam o trabalho artesanal."</p>
+                    <h5>Carlos Oliveira</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Colaboradores -->
+<section class="collaborators py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Colaboradores em Destaque</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="collaborator-card text-center">
+                    <img src="/assets/images/profile-example.jpg"" alt="Colaborador 1" class="img-fluid rounded-circle mb-3">
+                    <h5>Joana Silva</h5>
+                    <p>Especialista em vidro reciclado</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="collaborator-card text-center">
+                    <img src="/assets/images/profile-example.jpg" alt="Colaborador 2" class="img-fluid rounded-circle mb-3">
+                    <h5>Maria Souza</h5>
+                    <p>Esculturas de madeira</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="collaborator-card text-center">
+                    <img src="/assets/images/profile-example.jpg"" alt="Colaborador 3" class="img-fluid rounded-circle mb-3">
+                    <h5>Carlos Oliveira</h5>
+                    <p>Tecidos sustentáveis</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white py-4 footer-revetart">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-3">
+              <h3>Reventart</h3>
+              <p>Reventart é o marketplace líder para artesãos sustentáveis, conectando criadores que transformam materiais recicláveis em arte única com consumidores conscientes.</p>
+          </div>
+          <div class="col-md-3">
+              <h3>Categorias</h3>
+              <ul>
+                  <li><a href="#">Decoração Sustentável</a></li>
+                  <li><a href="#">Moda Reciclada</a></li>
+                  <li><a href="#">Móveis Ecológicos</a></li>
+                  <li><a href="#">Bijuterias Sustentáveis</a></li>
+                  <li><a href="#">Arte e Esculturas</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h3>Empresa</h3>
+              <ul>
+                  <li><a href="#">Sobre Nós</a></li>
+                  <li><a href="#">Como Funciona</a></li>
+                  <li><a href="#">Termos & Condições</a></li>
+                  <li><a href="#">Política de Privacidade</a></li>
+                  <li><a href="#">Contato</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h3>Conta</h3>
+              <ul>
+                  <li><a href="#">Entrar / Registrar</a></li>
+                  <li><a href="#">Ver Carrinho</a></li>
+                  <li><a href="#">Política de Devolução</a></li>
+                  <li><a href="#">Torne-se um Artesão</a></li>
+                  <li><a href="#">Programa de Afiliados</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="text-center mt-3">
+          <p>Copyright © 2024 Reventart. Todos os Direitos Reservos</p>
+      </div>
+    </div>
+  </footer>
+ 
+    <script src="/assets/bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>

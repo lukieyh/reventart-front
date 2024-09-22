@@ -44,3 +44,33 @@
     padding: 10px 15px;
     color: #FFFFFF;
 }
+
+
+
+/* Footer */
+.footer-revetart {
+    background-color: #65A86A !important; 
+    color: white;
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+.footer-revetart h3{
+    margin-bottom: 20px;
+}
+
+.footer-revetart ul li a {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.footer-revetart p {
+    font-size: 0.8rem;
+}
+
+.footer-revetart .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
