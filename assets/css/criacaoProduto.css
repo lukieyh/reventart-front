@@ -1,0 +1,34 @@
+.produto-content {
+    padding: 130px 0;
+}
+
+.produto-content .title-page{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.produto-content .title-page .divider{
+    width: 4px;
+    min-width: 4px;
+    height: 50px;
+    background-color: #4c6b41;
+    border-radius: 10px;
+}
+.produto-content .title-page  h1{
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-wrap: nowrap;
+}
+.produto-content .title-page  p{
+    margin: 0;
+}
+
+.produto-content .btn-green{
+    background: #92B66C !important;
+    border: none;
+    margin-top: 20px;
+}

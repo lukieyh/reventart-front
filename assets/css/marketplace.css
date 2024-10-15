@@ -58,6 +58,7 @@
 }
 
 .market-products .filtros-position{
+    position: absolute;
     z-index: 99;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
